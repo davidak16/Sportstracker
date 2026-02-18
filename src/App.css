@@ -1,0 +1,11 @@
+.container { font-family: Arial, sans-serif; width: 100vw;  background: #f0f0f0; }  /* Why? Centers, light bg for readability. */
+header { background: #1a1a1a; color: white; padding: 1rem; text-align: center; }  /* Dark header for contrast. */
+button { background: #007bff; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; margin: 0.5rem; }  /* Blue buttons, hoverable. */
+button:hover { background: #0056b3; }  /* Why hover? Interactive feel. */
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }  /* Full-width, no gaps. */
+th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; color: red }  /* Borders for clarity. */
+th { background: #007bff; color: white; }  /* Header styling. */
+.monetize { text-align: center; padding: 1rem; }  /* Center revenue section. */
+a { color: #007bff; text-decoration: none; margin-left: 1rem; }  /* Link styles. */
+a:hover { text-decoration: underline; }  /* Underline on hover. */
+@media (max-width: 600px) { table { font-size: 0.8rem; } th, td { padding: 0.3rem; } }  /* Why? Mobile bettors: Shrinks table. */
